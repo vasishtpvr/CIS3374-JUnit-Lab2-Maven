@@ -19,7 +19,7 @@ public class FareCalculatorTest {
 	private String time;
 	private boolean isHoliday;
 	private	static	final	double	DELTA	=	1e-15;
-	
+	    
 	
 	public FareCalculatorTest(double expected,int age,String time,boolean isHoliday){
 		this.expected=expected;
