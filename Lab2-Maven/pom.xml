@@ -4,4 +4,22 @@
   <artifactId>Lab2-Maven</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <name>Lab2-Maven</name>
+  <packaging>jar</packaging>
+  
+  	<build>
+  		<plugins>
+  			<plugin>
+        		<groupId>org.apache.maven.plugins</groupId>
+        		<artifactId>maven-jar-plugin</artifactId>
+        		<configuration>
+            		<archive>
+                		<manifest>
+                    		<mainClass>com.lab2.transit.FareCalculator</mainClass>
+                		</manifest>
+            		</archive>
+        		</configuration>
+    		</plugin>
+  		</plugins>
+  	</build>
+  	
 </project>
